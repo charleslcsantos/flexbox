@@ -1,0 +1,46 @@
+.topo {
+	margin-top: 20px;
+	.logo {
+		background-image: url('http://semantic-ui.com/images/icons/plugin.png');
+		width: 150px;
+		height: 150px;
+		display: block;
+		text-align: center;
+		background-repeat: no-repeat;
+		margin: 0 auto;
+	}
+	.ui.secondary.menu {
+		padding: 0;
+		justify-content: center;
+	}
+	.banner {
+		margin: 0 auto;
+		height: 460px;
+		background-image: url('http://i1.wp.com/arquiteturadeinformacao.com/wp-content/uploads/2016/05/photo-1435686858161-59da32dfd4b4.jpeg?w=1500');
+		display: block;
+	}
+	.flex-container {
+    display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+.box {
+	width: 300px;
+	height: 300px;
+	border: 1px dashed #333;
+	margin: 5px;
+	text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 2em;
+	flex-grow: 1;
+	&.galeria-3 {
+		width: 100%;
+	}
+	&.likebox-3 {
+		width: 100%;
+	}
+}
